@@ -54,7 +54,7 @@ function pinGenerator(restaurant) {
   let restaddress = document.getElementById("restAddress");
   let resthours = document.getElementById("restHours");
   let restphone = document.getElementById("restPhone");
-
+//variables being created for inner html
   let title = restaurant.name;
   let notes = restaurant.notes;
   let hours = restaurant.hours;
@@ -71,7 +71,4 @@ function pinGenerator(restaurant) {
   restaurantMarker.bindPopup(`<h2>${restaurantName}</h2>`);
 }
 
-
-
 //need to make pin links
-//need to pull restaurant info

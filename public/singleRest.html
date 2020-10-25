@@ -23,7 +23,7 @@
       crossorigin=""
     ></script>
     <!--CSS-->
-    <link rel="stylesheet" href="yelpington-index.css">
+    <link rel="stylesheet" href="yelpington-index.css" />
   </head>
   <body>
     <!--Page start. Page container div -->
@@ -34,14 +34,15 @@
         <!-- <h1 id="title">Best of the Mad River Valley (Yelpington)</h1> -->
         <nav id="nav">
           <div class="logo">
-            <h4>The Best of The Mad River Valley</h4>
+            <!--Would like to take off the blue link decoration not sure how-->
+            <a href="/"><h4>The Best of The Mad River Valley</h4></a>
             <p>Yelpington</p>
           </div>
           <ul id="nav-links">
             <li></li>
             <li></li>
             <li></li>
-            <li> </li>
+            <li></li>
             <li></li>
             <li></li>
           </ul>
@@ -53,23 +54,20 @@
           </div>
         </nav>
       </div>
-      <!-- <div class="backgroundImage"> -->
       <!--map container-->
       <div id="map-Container"></div>
+ <!--HTML Here for inidividual restaurant-->
+      <div id="generatedInfo">
+        <h2 id="restTitle"></h2>
+        <p id="restNotes"></p>
+        <p id="restAddress"></p>
+        <p id="restHours"></p>
+        <p id="restPhone"></p>
+      </div>
     </div>
-    </div>
-    <!--HTML Here for inidividual restaurant-->
-    <div id="generatedInfo">
-      <h2 id="restTitle"></h2>
-      <p id="restNotes"></p>
-      <p id="restAddress"></p>
-      <p id="restHours"></p>
-      <p id="restPhone"></p>
-    </div>
+
     <!--Footer Here-->
-    <div id=footer>
-     
-    </div>
+    <div id="footer"></div>
     <script src="singleRest.js"></script>
-</body>
+  </body>
 </html>

@@ -40,24 +40,12 @@ app.get('/:name', (request, response) => {
     response.sendFile(path.resolve(`./public/singleRest.html`))
 })
 
-//API endpoint search- will need to create map over function for jsons
-app.get('/api/restaurants', (request, response) => {
-    let restaurants = request.params.name
-    response.sendFile(path.resolve(`./restaurants/restaurants.json`))
-    
-})
-
-
-
 //starts up the server/console log check
 app.listen(port, () => {
     console.log(`running on ${port}`)
 })
 
-
-
-
-//helper functions
+//helper function
 function allRestaurants() {
     return fs.readdirSync(restaurantDir)
     .filter(file => file.endsWith('.json'))
