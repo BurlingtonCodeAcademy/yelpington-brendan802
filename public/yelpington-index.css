@@ -69,12 +69,12 @@
   font-size: 12px;
 }
 /* hover effect on nav pop out*/
-li:hover {
+/* li:hover {
   border-radius: 2px;
   width: 12%;
   background-color: cornflowerblue;
   transition: ease-in 450ms;
-}
+} */
 /*icon hidden*/
 .burger {
   display: none;

@@ -1,14 +1,14 @@
-[{
+{
     "id": "american-flatbread",
     "name": "American-Flatbread",
     "address":"46 Lareau Rd, Waitsfield, VT 05673",
     "hours": "4:00 pm - 8:15 pm",
-    "latitude": "",
-    "longitude": "",
+    "latitude": "44.172555",
+    "longitude": "-72.833974",
     "phone number": "(802)496-8856",
     "notes": [
         "Seriously good flatbread pizza made fresh in the hearth",
         "Ask for Willis"
     ]
 
-}]
+}

@@ -3,6 +3,8 @@
     "name": "The Pitcher Inn & Restaurant",
     "address":"275 Main, Warren, VT 05674",
     "hours": "4:00 pm - 1:00 am",
+    "latitude": "44.114933",
+    "longitude": "-72.854628",
     "phone number": "(802)496-6350",
     "notes": [
         "Upscale food and ambience, you can choose white-linen dinner service or a more relaxed bar atmosphere in Tracks Bar.",
@@ -14,6 +16,8 @@
     "name": "Localfolk Smokehouse",
     "address":"9 VT-17, Waitsfield, VT 05673",
     "hours": "4:00 pm - 1:00 am",
+    "latitude": "44.180628",
+    "longitude": "-72.840141",
     "phone number": "(802)496-5623",
     "notes": [
         "The best dive-bar in the Mad River Valley",
@@ -25,6 +29,8 @@
     "name": "Lawson's Finest Liquids",
     "address":"155 Carroll Rd, Waitsfield, VT 05673",
     "hours": "12:00 - 7:00 pm",
+    "latitude": "44.187801",
+    "longitude": "-72.835309",
     "phone number": "(802)496-4677",
     "notes": [
         "If you havn't enjoyed a Lawson's beverage, you should.",
@@ -36,6 +42,8 @@
     "name": "Hyde-Away Restaurant",
     "address":"1428 Mill Brook Road, Waitsfield, VT 05673",
     "hours": "4:00 pm - 9pm",
+    "latitude": "44.183717",
+    "longitude": "-72.833974",
     "phone number": "(802)496-2322",
     "notes": [
         "Great burgers and fish tacos on tuesdays, good prices",
@@ -47,6 +55,8 @@
     "name": "Canteen Creemee Company",
     "address":"5123 Main St, Waitsfield, VT 05673",
     "hours": "11:00 am - 8:00 pm",
+    "latitude": "44.1845781",
+    "longitude": "-72.835309",
     "phone number": "(802)496-6003",
     "notes": [
         "Best most creative creemees in Vermont.",
@@ -59,6 +69,8 @@
     "name": "American-Flatbread",
     "address":"46 Lareau Rd, Waitsfield, VT 05673",
     "hours": "4:00 pm - 8:15 pm",
+    "latitude": "44.172555",
+    "longitude": "-72.833974",
     "phone number": "(802)496-8856",
     "notes": [
         "Seriously good flatbread pizza made fresh in the hearth",

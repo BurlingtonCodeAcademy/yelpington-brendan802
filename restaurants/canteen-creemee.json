@@ -1,10 +1,10 @@
-[{
+{
     "id": "canteen-creemee",
     "name": "Canteen Creemee Company",
     "address":"5123 Main St, Waitsfield, VT 05673",
     "hours": "11:00 am - 8:00 pm",
-    "latitude": "",
-    "longitude": "",
+    "latitude": "44.1845781",
+    "longitude": "-72.835309",
     "phone number": "(802)496-6003",
     "notes": [
         "Best most creative creemees in Vermont.",
@@ -12,4 +12,3 @@
     ]
 
 }
-]

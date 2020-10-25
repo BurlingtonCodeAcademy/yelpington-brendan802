@@ -38,7 +38,7 @@ fetch("./api/restaurants")
 
       let anchor = document.createElement("a");
       let listName = document.createElement("li");
-      anchor.href = "restaurant.html#" + resid;
+      anchor.href = "/" + resid;
       listName.textContent = restaurant.name;
       navbar.appendChild(anchor)
       anchor.appendChild(listName);

@@ -2,16 +2,14 @@
 const fs = require('fs');
 const express = require("express")
 const bodyParser = require("body-parser")
-const cors = require("cors")
-const routes = require("./routes/routes.js")
 const app = express();
+
 //global variables
 const port = process.env.PORT ||8080;
 const path = require("path");
 const restaurantDir = path.resolve('./restaurants')
 
 // middleware
-app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended:true }));
 app.use(express.static('./public'));

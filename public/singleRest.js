@@ -1,19 +1,21 @@
-let navbar = document.getElementById("nav-links");
 
+//fetching restaurant names to links in nav bar
+let navbar = document.getElementById("nav-links");
 fetch("./api/restaurants")
   .then((res) => {
     return res.json();
   })
   .then((allNames) => {
     allNames.forEach((restaurant) => {
-      let resname = restaurant.name;
-    //   console.log(resname);
-
+      let resid = restaurant.id;
+      let resname= restaurant.name;
+      console.log(resname);
       let anchor = document.createElement("a");
       let listName = document.createElement("li");
-      anchor.href = "restaurant.html#" + resname;
+      anchor.href = "/" + resid;
+      anchor.onclick = 
       listName.textContent = restaurant.name;
-      navbar.appendChild(anchor);
+      navbar.appendChild(anchor)
       anchor.appendChild(listName);
     });
   });
@@ -27,19 +29,41 @@ L.tileLayer("https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png", {
     '&copy; Openstreetmap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(yelpMap);
 
-//pins
-let lat = 44.180628;
-let long = -72.840141;
-let linkName
-let restaurantName
 
+//restaurant id fetch for pin placement
+let id = document.location.pathname.slice(1)
+console.log(id)
+
+fetch("/api/" + id)
+.then((res) => {
+    return res.json();
+})//as callback function here
+.then(pinGenerator)
+
+//pin generator function
+function pinGenerator(restaurant){
+console.log(restaurant)
+let longitude = restaurant.longitude
+let latitude = restaurant.latitude
+//converting those variables to integers
+long = parseFloat(longitude) 
+lat = parseFloat(latitude) 
+
+let restaurantName = restaurant.name
+console.log(restaurant)
+console.log(restaurantName)
 let restaurantMarker = L.marker([lat, long]).addTo(yelpMap);
-restaurantMarker.bindPopup(`<a href=${linkName}>${restaurantName}</a>`);
+restaurantMarker.bindPopup(`<h2>${restaurantName}</h2>`);
+}
 
-    fetch("./api/:id")
-    .then((res) => {
-        return res.json();
-    })
-    .then((resId) => {
-        console.log(resId)
-    })
+
+//need to make pin links
+//need to pull restaurant info
+
+
+
+
+
+
+
+   
