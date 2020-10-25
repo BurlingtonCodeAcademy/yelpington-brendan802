@@ -50,18 +50,18 @@
 }
 
 /*nav link space*/
-.nav-links {
+#nav-links {
   display: flex;
   justify-content: space-around;
   width: 60%;
 }
 
-.nav-links li {
+#nav-links li {
   list-style: none;
 }
 
 /*Link Letter Styling*/
-.nav-links a {
+#nav-links a {
   color: rgb(226, 226, 226);
   text-decoration: none;
   letter-spacing: 1px;
