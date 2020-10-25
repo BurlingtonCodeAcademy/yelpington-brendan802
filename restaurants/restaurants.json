@@ -1,0 +1,68 @@
+[{
+    "id": "pitcher-inn",
+    "name": "The Pitcher Inn & Restaurant",
+    "address":"275 Main, Warren, VT 05674",
+    "hours": "4:00 pm - 1:00 am",
+    "phone number": "(802)496-6350",
+    "notes": [
+        "Upscale food and ambience, you can choose white-linen dinner service or a more relaxed bar atmosphere in Tracks Bar.",
+        "Great place to bring a date or go out for an occasion, say hi to Lucas at the bar."
+    ]
+},
+{
+    "id": "localfolk-smokehouse",
+    "name": "Localfolk Smokehouse",
+    "address":"9 VT-17, Waitsfield, VT 05673",
+    "hours": "4:00 pm - 1:00 am",
+    "phone number": "(802)496-5623",
+    "notes": [
+        "The best dive-bar in the Mad River Valley",
+        "Cheap drink and a few pool-tables, I wouldn't go here on a first date."
+    ]
+},
+{
+    "id": "lawsons-finest",
+    "name": "Lawson's Finest Liquids",
+    "address":"155 Carroll Rd, Waitsfield, VT 05673",
+    "hours": "12:00 - 7:00 pm",
+    "phone number": "(802)496-4677",
+    "notes": [
+        "If you havn't enjoyed a Lawson's beverage, you should.",
+        "Nice spot for an apres-ski drink or to hang-out on an evening."
+    ]
+},
+{
+    "id": "hyde-away",
+    "name": "Hyde-Away Restaurant",
+    "address":"1428 Mill Brook Road, Waitsfield, VT 05673",
+    "hours": "4:00 pm - 9pm",
+    "phone number": "(802)496-2322",
+    "notes": [
+        "Great burgers and fish tacos on tuesdays, good prices",
+        "Lots of outdoor seating"
+    ]
+},
+{
+    "id": "canteen-creemee",
+    "name": "Canteen Creemee Company",
+    "address":"5123 Main St, Waitsfield, VT 05673",
+    "hours": "11:00 am - 8:00 pm",
+    "phone number": "(802)496-6003",
+    "notes": [
+        "Best most creative creemees in Vermont.",
+        "Creemees and fried chicken."
+    ]
+
+},
+{
+    "id": "american-flatbread",
+    "name": "American-Flatbread",
+    "address":"46 Lareau Rd, Waitsfield, VT 05673",
+    "hours": "4:00 pm - 8:15 pm",
+    "phone number": "(802)496-8856",
+    "notes": [
+        "Seriously good flatbread pizza made fresh in the hearth",
+        "Ask for Willis"
+    ]
+}
+]
