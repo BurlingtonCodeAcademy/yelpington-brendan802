@@ -45,7 +45,7 @@ app.listen(port, () => {
     console.log(`running on ${port}`)
 })
 
-//helper function
+//helper function allrestaurants
 function allRestaurants() {
     return fs.readdirSync(restaurantDir)
     .filter(file => file.endsWith('.json'))

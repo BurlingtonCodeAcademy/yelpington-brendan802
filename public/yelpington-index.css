@@ -100,7 +100,7 @@
   }
 }
 
-/*media query for tablet/smart phone on nav link pop out and map container*/
+/*media query for tablet/phone on nav link pop out and map container*/
 @media screen and (max-width: 868px) {
   body {
     overflow-x: hidden;
@@ -165,6 +165,7 @@
     margin-top: 5rem;
   }
 }
+/*Footer styling*/
 #footer {
   position: absolute;
   bottom: 0;
